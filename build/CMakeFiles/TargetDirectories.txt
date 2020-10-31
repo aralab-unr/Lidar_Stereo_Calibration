@@ -1,0 +1,3 @@
+/media/ashu/25EA6BA0225EEBFD/ashu_ws/githubupload/build/CMakeFiles/rebuild_cache.dir
+/media/ashu/25EA6BA0225EEBFD/ashu_ws/githubupload/build/CMakeFiles/test_6.dir
+/media/ashu/25EA6BA0225EEBFD/ashu_ws/githubupload/build/CMakeFiles/edit_cache.dir
