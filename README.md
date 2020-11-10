@@ -18,7 +18,11 @@ Open the terminal and  navigate to the build diretory .
 
 * In function detectKeypoints_sift3d() in line 89 and 90 , change the last 4 input paramters for getting the required number of input points using sift algorithm. The last 4 parameters realtes to (int min_scale,int n_octaves,int n_scales_per_octave, double min_contrast), which are the parameters for sift algorithm
 
- * In line 328 and 329 change corr_th(between 0 to 1 e.g., 0.98) and ang_th (e.g., 0.25) to get 
+ * In line 328 and 329 change corr_th(between 0 to 1 e.g., 0.98) and ang_th (e.g., 0.25) to get the required transformation matrix. 
+ 
+ * Please test on multiple values of corr_th and ang_th to get the required calibration result.
+ 
+ * We are researching on automatic calculation of these parameters based on a given dataset.
  
  
  Run the algorithm using the command.
