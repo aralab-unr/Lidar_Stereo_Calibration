@@ -30,10 +30,12 @@ The first input parameter corresponds to Stereo point cloud data and the second 
 The results are in the form of a transformation matrix .
 
 
+```
+  transformation_matrix=
+   0.998232  -0.0178253   0.0567091   0.0687287
+  0.0175786    0.999834  0.00484514   -0.117551
+ -0.0567864 -0.00383972     0.99838    0.139574
+          0           0           0           1
+OK
 
->  transformation_matrix=
->  0.998232  -0.0178253   0.0567091   0.0687287
->  0.0175786    0.999834  0.00484514   -0.117551
-> -0.0567864 -0.00383972     0.99838    0.139574
->          0           0           0           1
-
+```
