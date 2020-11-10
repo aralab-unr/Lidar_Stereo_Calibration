@@ -325,8 +325,8 @@ void CalculateCorrentropy(pcl::PointCloud<pcl::PointXYZ>::Ptr inplicloud,pcl::Po
   float sigma=0.1;
   float max_val=-9999999;
   float max_angle=999999999;
-  double corr_th=0.999;
-  double ang_th=0.12;
+  double corr_th=0.98;
+  double ang_th=0.25;
   std::cout<<"\nLicloud size= "<<inplicloud->points.size()<<" st cloud size= "<<inpstcloud->points.size()<<std::endl; 
   int *idx=new int[inpstcloud->points.size()];
   st_vals *sv=new st_vals[inpstcloud->points.size()];
